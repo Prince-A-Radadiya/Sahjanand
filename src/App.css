@@ -313,8 +313,8 @@ a {
 }
 @media (max-width: 576px) {
   .home .home-l2 h1 {
-    font-weight: 700;
-    font-size: 6vh;
+    font-weight: 650;
+    font-size: 30px;
   }
   .home .home-l1 h1 {
     font-size: 7vh;
