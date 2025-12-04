@@ -255,9 +255,6 @@ a {
 
 }
 
-.cta-section {
-  margin-top: 60px;
-}
 
 .cta-box {
   background: #382a79;
@@ -312,6 +309,15 @@ a {
   .cta-right {
     text-align: center !important;
     width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .home .home-l2 h1 {
+    font-weight: 700;
+    font-size: 6vh;
+  }
+  .home .home-l1 h1 {
+    font-size: 7vh;
   }
 }
 
@@ -404,17 +410,7 @@ footer .footer-list li:hover {
     padding: 40px 0 15px 0;
   }
 
-  .footer-top {
-    text-align: center;
-  }
 
-  .footer-logo {
-    justify-content: center;
-  }
-
-  .footer-list li {
-    text-align: center;
-  }
 }
 
 /* FOOTER STYLES */
@@ -459,10 +455,16 @@ footer .footer-list li:hover {
     flex-direction: column;
     text-align: center;
   }
-
+  
   .hero-right img {
     width: 90%;
   }
+}
+@media (max-width: 576px) {
+  .hero-left h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
 }
 
 /* ---------------- COURSE FILTER ---------------- */

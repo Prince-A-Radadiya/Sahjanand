@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row footer-top">
 
                     {/* Logo + About */}
-                    <div className="col-12 col-md-3 mb-4">
+                    <div className="col-12 col-md-6 col-lg-3 mb-4">
                         <div className="footer-logo d-flex align-items-center mb-3">
                             <div className="footer-icon">
                                 <img src={require('../Img/logo.jpg')} alt="" />
@@ -20,7 +20,7 @@ const Footer = () => {
                             Committed to nurturing students for a bright
                             and successful future since 2005.
                         </p>
-                        <ul className="d-flex p-0 m-0 social">
+                        <ul className="d-flex p-0 m-0 social ">
                             <li className="me-2">
                                 <a href="https://api.whatsapp.com/send?phone=918485959585" className="li">
                                     <FaWhatsapp size={20} />
@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
 
                     {/* Quick Links */}
-                    <div className="col-6 col-md-3 mb-4">
+                    <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                         <h5 className="fw-bold mb-3">Quick Links</h5>
                         <ul className="footer-list">
                             <li><NavLink to="/">Home</NavLink></li>
@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
 
                     {/* Subjects */}
-                    <div className="col-6 col-md-3 mb-4">
+                    <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                         <h5 className="fw-bold mb-3">Subjects</h5>
                         <ul className="footer-list">
                             <li>Accountancy</li>
@@ -67,7 +67,7 @@ const Footer = () => {
                     </div>
 
                     {/* Contact */}
-                    <div className="col-12 col-md-3 mb-4">
+                    <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
                         <h5 className="fw-bold mb-3">Contact Us</h5>
                         <p className="text-capitalize">3rd floor, raghuveer shopping, mota varachha, surat.</p>
 

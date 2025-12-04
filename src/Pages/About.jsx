@@ -10,7 +10,7 @@ const About = () => {
                     
                     {/* Left Text */}
                     <div className="col-md-6 mb-4">
-                        <h1 className="fw-bold about-title">About Shri Sahajanand Classes</h1>
+                        <h1 className="fw-bold about-title">About Shree Sahajanand Classes</h1>
                         <p className="mt-3 about-subtext">
                             Committed to Excellence in Education. We are dedicated to nurturing young minds and 
                             fostering a passion for learning from Standard 4th to 12th Commerce.
